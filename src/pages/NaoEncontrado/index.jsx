@@ -1,8 +1,7 @@
 import styles from "../NaoEncontrado/NaoEncontrado.module.css";
 import error404 from "../../assets/erro_404.png";
 import BotaoPrincipal from "../../components/BotaoPrincipal";
-import {useNavigate} from 'react-router-dom';
-
+import {useNavigate} from 'react-router-dom'
 export default function NaoEncontrado() {
 
     const navegar = useNavigate()
